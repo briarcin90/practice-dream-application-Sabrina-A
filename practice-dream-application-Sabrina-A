@@ -1,0 +1,101 @@
+// Values, Data Types,and Operations
+//1. Create Variable for the Number of Chapters
+//2. Create Variable for the Number of Completed Chapters
+//3. Use Subtraction to find Number of Remaining Chapters 
+//4. Print Result
+
+//Skill: Values, Data Types, and Operations
+// Numbers used as values, and subtraction as the operation
+
+let totalaudioChapter = 25;
+let completedChapters = 2;
+let remainingChapters = totalaudioChapters- completedChapters;
+
+console.log("Remaining Chapters", remainingChapters);
+
+
+//Stringing Characters Together
+//1. Store bookTitle in a variable 
+//2. Store audioLog per Chapter
+//3. Combine strings into Message
+
+//Skill: Stringing Characters Together
+//String values and the + operator are used to concentrate characters
+
+let bookTitle = "Harry Potter and the Chamber of Secrets";
+let audioLog = "Chapter 4";
+let welcomeMessage = "Welcome Back to" + bookTitle "Lets continue with" + audioLog" + ".";
+
+concole.log(welcomeMessage);
+
+
+//Control Structures and logic
+//1. Check whether all chapters are completed 
+//2. If all chapters are completed, display a success message
+//3. Otherwise, display message informing user of unread chapters
+
+//Skill: Control Structures and Logic
+// An if/else statement uses a comparison to make a decision 
+
+if(remainingChapters === 0) {
+console.log("Great Job! Start new book?");
+}else{
+console.log("There are still" + remainingChapter + "chapter(s) to complete.");
+}
+
+
+//Building Arrays
+//1. Create an array containing several books
+//2. Store the titles in one variable
+//3. Print the array
+
+//Skill: Building Arrays
+// The array is created to store multiple books
+
+let books =  [
+         "To Kill A Mockingbird"
+         "Frankenstein"
+         "Moby Dick"
+  ]
+
+  console.log("Book lists", books);
+
+
+  //Using Arrays
+  //1. Access the first item in the task array
+  //2. Access the last item in the task array
+  //3. Print both values
+  //4. Add a new task to the array
+  //5. Print the updated array
+
+  //Skill:Using Arrays
+  // Array indexes are used to access values, and push() adds a value
+
+  let firstChapter = chapters[0];
+  let lastChapter = chapters[chapters.length - 1];
+
+  console.log("Firstchapter", firstChapter);
+  console.log("Lastchapter", lastChapter);
+
+  tasks.push("Complete book")
+
+  console.log("Updated task list:", tasks);
+
+
+  //Working with Loops
+  //Start at the first task in the array
+  //Repeat the loop while there are still tasks to display
+  //Print each task
+  //Increase the counter by one each time
+
+  //Skill: Working with Loops
+  //A for loop repeats code for each item in the tasks array
+
+  for(let chapters >= 0; index <chapters.length; book ++) {
+    console.log("chapter" + (book + 1)+ ":"+chapters[index]);
+  }
+
+
+  
+  
+
